@@ -70,7 +70,19 @@ python 编写决策树算法
    ```
 6. 利用graphviz工具将dot文件导入把决策树画出来（其中分支节点的上下关系根据<b>信息熵</b>的大小来评估的）
 
-	###信息熵的算法：(变量的不确定性越大，熵越大)  =负的 每一个发生的概率 乘以 以2为低概率的对数###
+###信息熵的算法：(变量的不确定性越大，熵越大)  =负的 每一个发生的概率 乘以 以2为低概率的对数###
 
-<img src="/xinxishang.png" />
-	 
+<img src="https://github.com/CentMeng/decisiontree/blob/master/xinxishanggongshi.png" />
+
+<img src="https://github.com/CentMeng/decisiontree/blob/master/xinxishang.png" />
+
+	
+7. 测试和使用
+
+```
+#newRowX是0，1输入数据
+predictedY = clf.predict(newRowX)
+print("新数据结果" + str(predictedY))
+```
+	
+ 
